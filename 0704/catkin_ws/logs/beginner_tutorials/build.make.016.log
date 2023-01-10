@@ -1,0 +1,16 @@
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[35m[1mConsolidate compiler generated dependencies of target listener[0m
+[ 12%] Built target talker
+[ 25%] Built target listener
+[ 25%] Built target _beginner_tutorials_generate_messages_check_deps_testMsg
+[ 25%] Built target _beginner_tutorials_generate_messages_check_deps_NamedPoint
+[ 56%] Built target beginner_tutorials_generate_messages_cpp
+[ 56%] Built target beginner_tutorials_generate_messages_eus
+[ 68%] Built target beginner_tutorials_generate_messages_nodejs
+[100%] Built target beginner_tutorials_generate_messages_py
+[100%] Built target beginner_tutorials_generate_messages_lisp
+[100%] Built target beginner_tutorials_generate_messages

@@ -1,0 +1,11 @@
+[01m[K/home/test3/software2-20niship/0704/catkin_ws/src/beginner_tutorials/src/listener.cpp:[m[K In function ‘[01m[Kvoid chatterCallback(const ConstPtr&)[m[K’:
+[01m[K/home/test3/software2-20niship/0704/catkin_ws/src/beginner_tutorials/src/listener.cpp:7:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kcut[m[K’ is not a member of ‘[01m[Kstd[m[K’; did you mean ‘[01m[Kcout[m[K’?
+    7 |   std::[01;31m[Kcut[m[K << "cout = " << msg->integer << std::endl;
+      |        [01;31m[K^~~[m[K
+      |        [32m[Kcout[m[K
+[01m[K/home/test3/software2-20niship/0704/catkin_ws/src/beginner_tutorials/src/listener.cpp:7:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct std_msgs::String_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kinteger[m[K’
+    7 |   std::cut << "cout = " << msg->[01;31m[Kinteger[m[K << std::endl;
+      |                                 [01;31m[K^~~~~~~[m[K
+make[2]: *** [CMakeFiles/listener.dir/src/listener.cpp.o] Error 1
+make[1]: *** [CMakeFiles/listener.dir/all] Error 2
+make: *** [all] Error 2

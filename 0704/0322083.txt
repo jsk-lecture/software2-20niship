@@ -1,0 +1,16 @@
+ROSで自作のメッセージを作るときに、
+talkerを実行し、その上でListenerを実行し始めると、`client wants topic to have datatype/md5sum`というエラーが出た。
+
+調べるとtalkerとlisterでメッセージの型が異なるため起こるエラーのようで（https://answers.ros.org/question/11618/error-client-wants-topic-a-to-have-b-but-our-version-has-c-dropping-connection/）、listenerでデータを受け取るコールバック関数の引数を
+
+```cpp
+#include <beginner_tutorials/testMsg.h>
+
+void chatterCallback(const beginner_tutorials::testMsg &msg){
+  ......
+}
+
+```
+
+のようにすることで、うまく行った。
+

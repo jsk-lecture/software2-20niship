@@ -1,0 +1,37 @@
+[0mCMake Deprecation Warning at /usr/src/googletest/CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+[0m
+[0mCMake Deprecation Warning at /usr/src/googletest/googlemock/CMakeLists.txt:41 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+[0m
+[0mCMake Deprecation Warning at /usr/src/googletest/googletest/CMakeLists.txt:48 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+[0m
+[31mCMake Error at /home/test3/software2-20niship/0704/catkin_ws/build/beginner_tutorials/cmake/beginner_tutorials-genmsg.cmake:3 (message):
+  Could not find messages which
+  '/home/test3/software2-20niship/0704/catkin_ws/src/beginner_tutorials/msg/testMsg.msg'
+  depends on.  Did you forget to specify generate_messages(DEPENDENCIES ...)?
+
+  Cannot locate message [int] in package [beginner_tutorials] with paths
+  [['/home/test3/software2-20niship/0704/catkin_ws/src/beginner_tutorials/msg']]
+[36mCall Stack (most recent call first):[0m
+  /opt/ros/melodic/share/genmsg/cmake/genmsg-extras.cmake:307 (include)
+  CMakeLists.txt:79 (generate_messages)
+
+[0m
+make: *** [cmake_check_build_system] Error 1

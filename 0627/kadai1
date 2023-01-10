@@ -1,0 +1,17 @@
+```mermaid
+graph TB;
+subgraph server
+server.py --> スケルトン
+スケルトン --> サーバーIDL
+end
+
+subgraph client
+client.py --> clientスタブ
+clientスタブ --> クライアントIDL
+end
+    
+クライアントIDL --ORB--> サーバーIDL
+サーバーIDL --ORB--> クライアントIDL
+
+```
+

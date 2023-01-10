@@ -1,0 +1,47 @@
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[35m[1mConsolidate compiler generated dependencies of target listener[0m
+[  6%] [32mBuilding CXX object CMakeFiles/listener.dir/src/listener.cpp.o[0m
+[ 18%] Built target talker
+[ 18%] Built target _beginner_tutorials_generate_messages_check_deps_NamedPoint
+[ 18%] Built target _beginner_tutorials_generate_messages_check_deps_testMsg
+[ 50%] Built target beginner_tutorials_generate_messages_cpp
+[ 50%] Built target beginner_tutorials_generate_messages_eus
+[ 81%] Built target beginner_tutorials_generate_messages_lisp
+[ 81%] Built target beginner_tutorials_generate_messages_py
+[ 93%] Built target beginner_tutorials_generate_messages_nodejs
+[ 93%] Built target beginner_tutorials_generate_messages
+In file included from [01m[K/opt/ros/melodic/include/ros/ros.h:40[m[K,
+                 from [01m[K/home/test3/software2-20niship/0704/catkin_ws/src/beginner_tutorials/src/listener.cpp:1[m[K:
+[01m[K/home/test3/software2-20niship/0704/catkin_ws/src/beginner_tutorials/src/listener.cpp:[m[K In function ‘[01m[Kvoid chatterCallback(const testMsg&)[m[K’:
+[01m[K/home/test3/software2-20niship/0704/catkin_ws/src/beginner_tutorials/src/listener.cpp:8:12:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 9 has type ‘[01m[Klong int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+    8 |   ROS_INFO([01;35m[K"I heard: [%s] int = [%d]"[m[K, msg.str.c_str(), [32m[Kmsg.integer[m[K);
+      |            [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                   [32m[K~~~~~~~~~~~[m[K
+      |                                                             [32m[K|[m[K
+      |                                                             [32m[Klong int[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:348:165:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+  348 |     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, [01;36m[K__VA_ARGS__[m[K)
+      |                                                                                                                                                                     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:387:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+  387 |       [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:572:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+  572 | #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+      |                                   [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+  110 | #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+      |                       [01;36m[K^~~~~~~[m[K
+[01m[K/home/test3/software2-20niship/0704/catkin_ws/src/beginner_tutorials/src/listener.cpp:8:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+    8 |   [01;36m[KROS_INFO[m[K("I heard: [%s] int = [%d]", msg.str.c_str(), msg.integer);
+      |   [01;36m[K^~~~~~~~[m[K
+[01m[K/home/test3/software2-20niship/0704/catkin_ws/src/beginner_tutorials/src/listener.cpp:8:35:[m[K [01;36m[Knote: [m[Kformat string is defined here
+    8 |   ROS_INFO("I heard: [%s] int = [[01;36m[K%d[m[K]", msg.str.c_str(), msg.integer);
+      |                                  [01;36m[K~^[m[K
+      |                                   [01;36m[K|[m[K
+      |                                   [01;36m[Kint[m[K
+      |                                  [32m[K%ld[m[K
+[100%] [32m[1mLinking CXX executable /home/test3/software2-20niship/0704/catkin_ws/devel/.private/beginner_tutorials/lib/beginner_tutorials/listener[0m
+[100%] Built target listener

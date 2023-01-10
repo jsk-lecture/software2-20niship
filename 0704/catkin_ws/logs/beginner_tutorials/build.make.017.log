@@ -1,0 +1,42 @@
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  6%] [32mBuilding CXX object CMakeFiles/listener.dir/src/listener.cpp.o[0m
+[ 18%] Built target talker
+[ 18%] Built target _beginner_tutorials_generate_messages_check_deps_testMsg
+[ 18%] Built target _beginner_tutorials_generate_messages_check_deps_NamedPoint
+[ 56%] Built target beginner_tutorials_generate_messages_eus
+[ 56%] Built target beginner_tutorials_generate_messages_py
+[ 75%] Built target beginner_tutorials_generate_messages_nodejs
+[ 81%] Built target beginner_tutorials_generate_messages_cpp
+[ 93%] Built target beginner_tutorials_generate_messages_lisp
+[ 93%] Built target beginner_tutorials_generate_messages
+In file included from [01m[K/opt/ros/melodic/include/ros/ros.h:40[m[K,
+                 from [01m[K/home/test3/software2-20niship/0704/catkin_ws/src/beginner_tutorials/src/listener.cpp:1[m[K:
+[01m[K/home/test3/software2-20niship/0704/catkin_ws/src/beginner_tutorials/src/listener.cpp:[m[K In function ‘[01m[Kvoid chatterCallback(const ConstPtr&)[m[K’:
+[01m[K/home/test3/software2-20niship/0704/catkin_ws/src/beginner_tutorials/src/listener.cpp:7:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct std_msgs::String_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kstr[m[K’; did you mean ‘[01m[KPtr[m[K’?
+    7 |   ROS_INFO("I heard: [%s]", msg->[01;31m[Kstr[m[K.c_str());
+      |                                  [01;31m[K^~~[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:348:165:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+  348 |     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, [01;36m[K__VA_ARGS__[m[K)
+      |                                                                                                                                                                     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:387:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+  387 |       [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:572:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+  572 | #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+      |                                   [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+  110 | #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+      |                       [01;36m[K^~~~~~~[m[K
+[01m[K/home/test3/software2-20niship/0704/catkin_ws/src/beginner_tutorials/src/listener.cpp:7:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+    7 |   [01;36m[KROS_INFO[m[K("I heard: [%s]", msg->str.c_str());
+      |   [01;36m[K^~~~~~~~[m[K
+CMakeFiles/listener.dir/build.make:75: recipe for target 'CMakeFiles/listener.dir/src/listener.cpp.o' failed
+make[2]: *** [CMakeFiles/listener.dir/src/listener.cpp.o] Error 1
+CMakeFiles/Makefile2:1175: recipe for target 'CMakeFiles/listener.dir/all' failed
+make[1]: *** [CMakeFiles/listener.dir/all] Error 2
+Makefile:145: recipe for target 'all' failed
+make: *** [all] Error 2

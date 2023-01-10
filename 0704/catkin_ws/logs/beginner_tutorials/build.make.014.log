@@ -1,0 +1,31 @@
+[35m[1mConsolidate compiler generated dependencies of target listener[0m
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[35m[1mConsolidate compiler generated dependencies of target talker[0m
+[  6%] [32mBuilding CXX object CMakeFiles/listener.dir/src/listener.cpp.o[0m
+[ 18%] Built target talker
+[ 18%] Built target _beginner_tutorials_generate_messages_check_deps_NamedPoint
+[ 18%] Built target _beginner_tutorials_generate_messages_check_deps_testMsg
+[ 37%] Built target beginner_tutorials_generate_messages_py
+[ 56%] Built target beginner_tutorials_generate_messages_eus
+[ 68%] Built target beginner_tutorials_generate_messages_cpp
+[ 81%] Built target beginner_tutorials_generate_messages_lisp
+[ 93%] Built target beginner_tutorials_generate_messages_nodejs
+[ 93%] Built target beginner_tutorials_generate_messages
+[01m[K/home/test3/software2-20niship/0704/catkin_ws/src/beginner_tutorials/src/listener.cpp:[m[K In function ‘[01m[Kvoid chatterCallback(const ConstPtr&)[m[K’:
+[01m[K/home/test3/software2-20niship/0704/catkin_ws/src/beginner_tutorials/src/listener.cpp:7:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kcut[m[K’ is not a member of ‘[01m[Kstd[m[K’; did you mean ‘[01m[Kcout[m[K’?
+    7 |   std::[01;31m[Kcut[m[K << "cout = " << msg->integer << std::endl;
+      |        [01;31m[K^~~[m[K
+      |        [32m[Kcout[m[K
+[01m[K/home/test3/software2-20niship/0704/catkin_ws/src/beginner_tutorials/src/listener.cpp:7:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct std_msgs::String_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kinteger[m[K’
+    7 |   std::cut << "cout = " << msg->[01;31m[Kinteger[m[K << std::endl;
+      |                                 [01;31m[K^~~~~~~[m[K
+CMakeFiles/listener.dir/build.make:75: recipe for target 'CMakeFiles/listener.dir/src/listener.cpp.o' failed
+make[2]: *** [CMakeFiles/listener.dir/src/listener.cpp.o] Error 1
+CMakeFiles/Makefile2:1175: recipe for target 'CMakeFiles/listener.dir/all' failed
+make[1]: *** [CMakeFiles/listener.dir/all] Error 2
+Makefile:145: recipe for target 'all' failed
+make: *** [all] Error 2

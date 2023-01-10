@@ -1,0 +1,1 @@
+/home/test3/software2-20niship/0704/catkin_ws/devel/.private/beginner_tutorials/share/common-lisp/ros/beginner_tutorials/msg/_package_NamedPoint.lisp

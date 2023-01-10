@@ -1,0 +1,6 @@
+devel_space: /home/test3/software2-20niship/0704/catkin_ws/devel
+install: false
+install_space: /home/test3/software2-20niship/0704/catkin_ws/install
+profile: default
+source_space: /home/test3/software2-20niship/0704/catkin_ws/src
+workspace: /home/test3/software2-20niship/0704/catkin_ws

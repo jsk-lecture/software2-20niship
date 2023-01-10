@@ -1,0 +1,19 @@
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_py
+[  6%] [32mBuilding CXX object CMakeFiles/listener.dir/src/listener.cpp.o[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/talker.dir/src/talker.cpp.o[0m
+[ 12%] Built target _beginner_tutorials_generate_messages_check_deps_NamedPoint
+[ 12%] Built target _beginner_tutorials_generate_messages_check_deps_testMsg
+[ 25%] Built target beginner_tutorials_generate_messages_cpp
+[ 43%] Built target beginner_tutorials_generate_messages_eus
+[ 62%] Built target beginner_tutorials_generate_messages_py
+[ 75%] Built target beginner_tutorials_generate_messages_lisp
+[ 87%] Built target beginner_tutorials_generate_messages_nodejs
+[ 87%] Built target beginner_tutorials_generate_messages
+[ 93%] [32m[1mLinking CXX executable /home/test3/software2-20niship/0704/catkin_ws/devel/.private/beginner_tutorials/lib/beginner_tutorials/talker[0m
+[ 93%] Built target talker
+[100%] [32m[1mLinking CXX executable /home/test3/software2-20niship/0704/catkin_ws/devel/.private/beginner_tutorials/lib/beginner_tutorials/listener[0m
+[100%] Built target listener
